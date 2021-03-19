@@ -5,7 +5,7 @@ requires = [
 build-backend = "poetry.masonry.api"
 
 [tool.poetry]
-name = "quickstart_vw-wasm"
+name = "quickstart_vw_wasm"
 version = "0.1.0"
 description = "VW-WASM Federated Learning Quickstart with Flower"
 authors = ["KooperAI <web@kooper.ai>"]
