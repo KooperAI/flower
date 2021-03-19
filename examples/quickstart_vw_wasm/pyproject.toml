@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+    "poetry==1.1.4",
+]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "quickstart_vw-wasm"
+version = "0.1.0"
+description = "VW-WASM Federated Learning Quickstart with Flower"
+authors = ["KooperAI <web@kooper.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+flwr = "^0.15.0"  # For development: { path = "../../", develop = true }
